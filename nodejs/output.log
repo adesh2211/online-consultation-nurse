@@ -1,0 +1,388 @@
+Listening on localhost:8080
+DB Connected!
+error ping timeout
+message {"imageUrl":"","message":"H","messageType":"TEXT","receiverId":"33","request_id":"24","senderId":"32","senderName":"User78374","sentAt":1586321398729}
+sending to socket - zoFtKsHY_DP6wIIkAAAC
+Successfully sent with response:  {"multicast_id":1727682890610214902,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586321450250245%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Jjjj","messageType":"TEXT","receiverId":"33","request_id":"24","senderId":"32","senderName":"User78374","sentAt":1586321462338}
+sending to socket - zoFtKsHY_DP6wIIkAAAC
+Successfully sent with response:  {"multicast_id":4280338017290121796,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586321514643373%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ggg","messageType":"TEXT","receiverId":"32","request_id":"24","senderId":"33","senderName":"Vendor 70189","sentAt":1586321465533}
+sending to socket - SrkO5HBQDMEVWgLvAAAB
+Successfully sent with response:  {"multicast_id":820240435364360213,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586321517124058%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"Hi User78374\\n I am Available for chat lets discuss the problem","messageType":"TEXT","receiverId":"33","request_id":"24","senderId":"32","senderName":"User78374","sentAt":1586322995697}
+Successfully sent with response:  {"multicast_id":3226739267221645341,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586323047150633%5c8e4419f9fd7ecd"}]}
+sending to socket - bdThSG2fXuF-3Hg8AAAD
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error transport close
+error ping timeout
+error ping timeout
+error transport close
+error ping timeout
+message {"imageUrl":"","message":"Hi User78374 \n I am Available for chat lets discuss the problem","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586325136884}
+sending to socket - mszMjTvT3_KVMzZfAAAT
+Successfully sent with response:  {"multicast_id":3654019087574737825,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586325189197984%5c8e4419f9fd7ecd"}]}
+error ping timeout
+error client namespace disconnect
+error transport close
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error client namespace disconnect
+error ping timeout
+message {"imageUrl":"","message":"Hi","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"33","senderName":"User78374","sentAt":1586326425050}
+sending to socket - k5IcpPto-KWSSfIMAAAm
+Successfully sent with response:  {"multicast_id":8601198157292180193,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586326476491519%5c8e4419f9fd7ecd"}]}
+error client namespace disconnect
+error ping timeout
+message {"imageUrl":"","message":"Hi","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586326530817}
+sending to socket - l9GcLT6FSOifNXTfAAAk
+Successfully sent with response:  {"multicast_id":4965496780346385009,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586326582813316%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586326545139}
+sending to socket - l9GcLT6FSOifNXTfAAAk
+Successfully sent with response:  {"multicast_id":9134404667720134819,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586326597066995%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Nooo","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586326550845}
+sending to socket - l9GcLT6FSOifNXTfAAAk
+Successfully sent with response:  {"multicast_id":2334884229840179466,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586326602263935%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"Hmm","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586326721145}
+sending to socket - zoT7xD5kGUlSUfFAAAAr
+Successfully sent with response:  {"multicast_id":8931721519211760727,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586326772566630%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Jj","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586326729345}
+sending to socket - zoT7xD5kGUlSUfFAAAAr
+Successfully sent with response:  {"multicast_id":2690419907174386212,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586326780762662%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"Jiii","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586327832566}
+sending to socket - FtkFYz2o-Il_e-r-AAAx
+Successfully sent with response:  {"multicast_id":8421724008692141671,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586327884235763%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error client namespace disconnect
+error ping timeout
+error client namespace disconnect
+error ping timeout
+message {"imageUrl":"","message":"Hi User78374 \n I am Available for chat lets discuss the problem","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328604384}
+sending to socket - fLrXRrYHmeeoN5sUAAA1
+Successfully sent with response:  {"multicast_id":6014818263306174434,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328656397644%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"User78374","sentAt":1586328617136}
+sending to socket - FtkFYz2o-Il_e-r-AAAx
+Successfully sent with response:  {"multicast_id":4405490686713396794,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328669213082%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Bol","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328622780}
+sending to socket - fLrXRrYHmeeoN5sUAAA1
+Successfully sent with response:  {"multicast_id":5994925913721272935,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328674721038%5c8e4419f9fd7ecd"}]}
+error client namespace disconnect
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328659287}
+sending to socket - Iky1qfRyCkAR0z9IAAA2
+Successfully sent with response:  {"multicast_id":7054727796546808261,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328710667388%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"No","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328668113}
+Successfully sent with response:  {"multicast_id":1861035523183010391,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328723638327%5c8e4419f9fd7ecd"}]}
+sending to socket - Iky1qfRyCkAR0z9IAAA2
+error transport close
+error transport close
+message {"imageUrl":"","message":"Gg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328692455}
+sending to socket - NzaBmmnkUPqvpEWfAAA3
+Successfully sent with response:  {"multicast_id":2721509583395976931,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328744056093%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hhh","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328700158}
+sending to socket - NzaBmmnkUPqvpEWfAAA3
+Successfully sent with response:  {"multicast_id":1579621000512982838,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328752016344%5c8e4419f9fd7ecd"}]}
+error client namespace disconnect
+error ping timeout
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328820775}
+sending to socket - Pq7ysisF9u8C_NnEAAA6
+Successfully sent with response:  {"multicast_id":6669836167697456021,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328872381218%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hhh","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328827127}
+sending to socket - Pq7ysisF9u8C_NnEAAA6
+Successfully sent with response:  {"multicast_id":5188068182190185971,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328878431129%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hhh","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586328834237}
+sending to socket - Pq7ysisF9u8C_NnEAAA6
+Successfully sent with response:  {"multicast_id":4181471030277412864,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586328885528113%5c8e4419f9fd7ecd"}]}
+error client namespace disconnect
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329070511}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":2089615594676613376,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329122072300%5c8e4419f9fd7ecd"}]}
+error ping timeout
+message {"imageUrl":"","message":"Hmmm","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329076653}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":9166545425095026446,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329128371810%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ggg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329080557}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":1735729655657063284,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329132950480%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Bb","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329083364}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":6287361656552242025,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329134883991%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Uu","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329086907}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":3183303792145798493,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329138272640%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ggg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329090197}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":4444776488016385116,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329141724519%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Gg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329092468}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":3152560073224696645,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329144168513%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Jj","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329103535}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":1469352777572976527,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329154945380%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Jjj","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329115109}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":762318276898043213,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329166384043%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329224207}
+sending to socket - QHY4pPQ8nrZct-lZAAA8
+Successfully sent with response:  {"multicast_id":8881076580967477373,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329275903630%5c8e4419f9fd7ecd"}]}
+error ping timeout
+error client namespace disconnect
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329366358}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":3146834545524342376,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329417617565%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ggg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329368772}
+Successfully sent with response:  {"multicast_id":5814956403254501461,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329420237425%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ggg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329373822}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":8454182344124060897,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329438367986%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Uuu","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329394941}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":7877592166514190366,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329446890226%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Gg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329398260}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":6210179996377732607,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329449777797%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Uuu","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329404540}
+Successfully sent with response:  {"multicast_id":3304680125304983009,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329455913482%5c8e4419f9fd7ecd"}]}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+message {"imageUrl":"","message":"Jj","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329409450}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":461570563988214106,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329463522415%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ff","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586329418309}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":6869360982365748108,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586329469691930%5c8e4419f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"Ooo","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"32","senderName":"Vendor 70189","sentAt":1586332590806}
+sending to socket - nZVx7b18-3jYZjIFAABD
+Successfully sent with response:  {"multicast_id":4263868569225245864,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586332642126804%f2e1f850f9fd7ecd"}]}
+error ping timeout
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586332681716}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":7387400243741784494,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586332733526271%5c8e4419f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"No","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586332901060}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":2230945384351205094,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586332952265698%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586333000261}
+Successfully sent with response:  {"multicast_id":2431663773681980262,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333051607534%5c8e4419f9fd7ecd"}]}
+error ping timeout
+sending to socket - cTadWYKjPfQcSWAwAAA-
+message {"imageUrl":"","message":"H","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586333005146}
+message {"imageUrl":"","message":"Ff","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586333010008}
+Successfully sent with response:  {"multicast_id":122601170869959388,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333063493970%5c8e4419f9fd7ecd"}]}
+Successfully sent with response:  {"multicast_id":1411870040171628191,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333063490046%5c8e4419f9fd7ecd"}]}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+sending to socket - cTadWYKjPfQcSWAwAAA-
+error ping timeout
+message {"imageUrl":"","message":"Gg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586333020397}
+sending to socket - cTadWYKjPfQcSWAwAAA-
+Successfully sent with response:  {"multicast_id":436942042149606431,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333072367496%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hh","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586333024328}
+sending to socket - OHM4Od5Gx_qePue-AABK
+Successfully sent with response:  {"multicast_id":4638064085830615376,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333075560120%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hh","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586333028857}
+Successfully sent with response:  {"multicast_id":8195900031565768987,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333080109852%f2e1f850f9fd7ecd"}]}
+sending to socket - OHM4Od5Gx_qePue-AABK
+message {"imageUrl":"","message":"Bb","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586333040703}
+Successfully sent with response:  {"multicast_id":4602786274136750755,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333091932782%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hhh","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586333043641}
+sending to socket - OHM4Od5Gx_qePue-AABK
+Successfully sent with response:  {"multicast_id":6495146061774384666,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333099529516%f2e1f850f9fd7ecd"}]}
+sending to socket - OHM4Od5Gx_qePue-AABK
+message {"imageUrl":"","message":"Ggg","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586333050975}
+sending to socket - OHM4Od5Gx_qePue-AABK
+Successfully sent with response:  {"multicast_id":3873543602259394099,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333102205782%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Jj","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586333057906}
+sending to socket - OHM4Od5Gx_qePue-AABK
+Successfully sent with response:  {"multicast_id":4741733527502304012,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333109123169%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"He","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586333086010}
+sending to socket - OHM4Od5Gx_qePue-AABK
+Successfully sent with response:  {"multicast_id":1640759532629567387,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586333137227684%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+error transport close
+error transport close
+error ping timeout
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586342036214}
+sending to socket - eOG7lu_wwvV9opTuAABP
+Successfully sent with response:  {"multicast_id":8649148347696271986,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342087199018%5c8e4419f9fd7ecd"}]}
+error client namespace disconnect
+error client namespace disconnect
+error ping timeout
+error client namespace disconnect
+error ping timeout
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586342392269}
+sending to socket - OykRM7GTFNDtEXBkAABR
+Successfully sent with response:  {"multicast_id":2752759293321096020,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342443609939%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"No","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586342401270}
+sending to socket - dLbv08rdZbY9EtKuAABW
+Successfully sent with response:  {"multicast_id":2831509134073504527,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342452484015%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ggg","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586342408297}
+sending to socket - OykRM7GTFNDtEXBkAABR
+Successfully sent with response:  {"multicast_id":3267015300595325544,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342459262730%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586342470899}
+sending to socket - OykRM7GTFNDtEXBkAABR
+Successfully sent with response:  {"multicast_id":7430802267953693363,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342521885788%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hh","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586342502041}
+sending to socket - OykRM7GTFNDtEXBkAABR
+Successfully sent with response:  {"multicast_id":3397724770376119793,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342553358493%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hh","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586342535674}
+sending to socket - OykRM7GTFNDtEXBkAABR
+Successfully sent with response:  {"multicast_id":8507469054022833373,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342586609909%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Kk","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586342632650}
+sending to socket - QLDzQ3PsLT68u66bAABY
+Successfully sent with response:  {"multicast_id":5552742697677552830,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342683917739%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Uuu","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586342636721}
+sending to socket - QLDzQ3PsLT68u66bAABY
+Successfully sent with response:  {"multicast_id":6152462007896107964,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342687981002%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586342799580}
+sending to socket - dLbv08rdZbY9EtKuAABW
+Successfully sent with response:  {"multicast_id":1059576225046291971,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342851301556%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"T","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586342814238}
+sending to socket - dLbv08rdZbY9EtKuAABW
+Successfully sent with response:  {"multicast_id":3253927427295830450,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342877841509%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hhhhhhhhhhh","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586342884333}
+sending to socket - dLbv08rdZbY9EtKuAABW
+Successfully sent with response:  {"multicast_id":2885864297378156053,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586342937988117%5c8e4419f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error client namespace disconnect
+error ping timeout
+message {"imageUrl":"","message":"How","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343891598}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":6101878863965194670,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343942480486%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"What","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586343909348}
+sending to socket - sQ2DEmZQZddKJfB8AABc
+Successfully sent with response:  {"multicast_id":2806190453446605725,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343960387537%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"When","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343915985}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":4179343233618263171,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343966876772%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343925369}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":7162573696110869012,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343976334149%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343927273}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":360297036873608461,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343978146753%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343929249}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":5375070776100703958,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343980239307%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343930832}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":8123273068558298138,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343981776464%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343932592}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":8841348930515712126,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343983753720%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343934649}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":8140788773005590962,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343985985993%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ji","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586343936770}
+sending to socket - UexsXdlCGdaE9D-bAABe
+Successfully sent with response:  {"multicast_id":5586143838418201524,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586343988171806%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Okay","messageType":"TEXT","receiverId":"32","request_id":"25","senderId":"33","senderName":"Vendor 70189","sentAt":1586343957586}
+sending to socket - sQ2DEmZQZddKJfB8AABc
+Successfully sent with response:  {"multicast_id":4844865651285072016,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344008748961%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+error client namespace disconnect
+message {"imageUrl":"","message":"Oo","messageType":"TEXT","receiverId":"33","request_id":"25","senderId":"32","senderName":"User78374","sentAt":1586344046202}
+sending to socket - ri5Ue0gSXXhDMp7fAABh
+Successfully sent with response:  {"multicast_id":5600634474120424558,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344097348192%5c8e4419f9fd7ecd"}]}
+error ping timeout
+error ping timeout
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586344092926}
+sending to socket - sQ2DEmZQZddKJfB8AABc
+Successfully sent with response:  {"multicast_id":6950583817365819496,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344144306904%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ii","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586344102627}
+sending to socket - sQ2DEmZQZddKJfB8AABc
+Successfully sent with response:  {"multicast_id":6092235619621348070,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344154302836%f2e1f850f9fd7ecd"}]}
+message {"imageUrl":"","message":"Lkk","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586344111980}
+sending to socket - sQ2DEmZQZddKJfB8AABc
+Successfully sent with response:  {"multicast_id":3602178909002003163,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344162991487%f2e1f850f9fd7ecd"}]}
+error ping timeout
+error client namespace disconnect
+message {"imageUrl":"","message":"Ok","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586344173312}
+sending to socket - jEx8mB2oMl_lyQauAABl
+Successfully sent with response:  {"multicast_id":3087589563122017707,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344224441316%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Ttg","messageType":"TEXT","receiverId":"33","request_id":"26","senderId":"32","senderName":"User78374","sentAt":1586344183732}
+sending to socket - jEx8mB2oMl_lyQauAABl
+Successfully sent with response:  {"multicast_id":6237800522834142841,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344234951912%5c8e4419f9fd7ecd"}]}
+message {"imageUrl":"","message":"Hh","messageType":"TEXT","receiverId":"32","request_id":"26","senderId":"33","senderName":"Vendor 70189","sentAt":1586344188016}
+sending to socket - sQ2DEmZQZddKJfB8AABc
+Successfully sent with response:  {"multicast_id":6366026034709177700,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1586344238942975%f2e1f850f9fd7ecd"}]}
+error client namespace disconnect
+error ping timeout
+error ping timeout
+error client namespace disconnect
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error client namespace disconnect
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout
+error ping timeout

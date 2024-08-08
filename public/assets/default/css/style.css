@@ -1,0 +1,2352 @@
+@font-face {
+    font-family: 'Campton';
+    src: url('../fonts/Campton-Light.eot');
+    src: url('../fonts/Campton-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Campton-Light.woff2') format('woff2'),
+        url('../fonts/Campton-Light.woff') format('woff'),
+        url('../fonts/Campton-Light.svg#Campton-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../fonts/Campton-SemiBold.eot');
+    src: url('../fonts/Campton-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Campton-SemiBold.woff2') format('woff2'),
+        url('../fonts/Campton-SemiBold.woff') format('woff'),
+        url('../fonts/Campton-SemiBold.svg#Campton-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../fonts/Campton-Book.eot');
+    src: url('../fonts/Campton-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Campton-Book.woff2') format('woff2'),
+        url('../fonts/Campton-Book.woff') format('woff'),
+        url('../fonts/Campton-Book.svg#Campton-Book') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../fonts/Campton-Medium.eot');
+    src: url('../fonts/Campton-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Campton-Medium.woff2') format('woff2'),
+        url('../fonts/Campton-Medium.woff') format('woff'),
+        url('../fonts/Campton-Medium.svg#Campton-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Light.eot');
+    src: url('../fonts/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Light.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Light.svg#SFUIDisplay-Light') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Bold.eot');
+    src: url('../fonts/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFUIDisplay-Bold.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Bold.svg#SFUIDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  background: #fff;
+  color: #444;
+font-family: 'Campton Book';
+  font-weight: 500;
+  font-style: normal;
+  background: #fff;
+  letter-spacing: 0;
+  scroll-behavior: smooth;
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
+.no-margin {
+  margin: 0 auto !important;
+}
+
+.no-padding {
+  padding: 0px!important;
+}
+
+.padded {
+  padding: 15px !important;
+}
+
+.side-padding {
+  padding: 0px 15px;
+}
+
+.no-side-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.no-bottom-border {
+  border-bottom: none !important;
+}
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+
+.no-side-padding {
+  padding: 15px 0px;
+}
+
+.no-pd-lft {
+  padding-left: 0px;
+}
+
+.bottom-margin {
+  margin-bottom: 15px;
+}
+
+.no-bt-margin {
+  margin-bottom: 0px;
+}
+
+.top-margin {
+  margin-top: 15px;
+}
+
+.middle-align {
+  vertical-align: middle;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.full-width {
+  width: 100%!important;
+}
+
+.btn {
+    width: 168px;
+    border-radius: 6px;
+    background-color: #0491FF;
+    line-height: 45px;
+    letter-spacing: 1.8px;
+    box-shadow: 0 15px 40px -10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    color: #FFFFFF;
+    font-family: "SF ui Display";
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 0;
+}
+
+.btn span {
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+}
+/* 
+.btn:before, .btn:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  top: 0;
+  transition: all 0.4s ease;
+  background-color: #b40825;
+  border-radius: 4px;
+} */
+
+.btn:before {
+  left: 0;
+}
+
+.btn:after {
+  right: 0;
+}
+/* 
+.btn:hover {
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px -12px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1.5px;
+  color: white;
+} */
+/* 
+.btn:hover:before, .btn:hover:after {
+  width: 51%;
+} */
+
+button:focus {
+  outline: none;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+}
+
+/*Homepage Css*/
+header.header-innr{
+    box-shadow: 0px 0px 4px #0000001a;
+}
+header nav {
+  background: #fff;
+}
+
+header nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+header nav a {
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+header nav.navbar.shrink {
+  min-height: 35px;
+  padding: 15px 7px;
+}
+
+header nav.navbar.shrink .navbar-brand {
+  font-size: 10px;
+  padding: 4px 0;
+}
+
+header .navbar {
+  padding: 15px 7px;
+  background: transparent;
+}
+
+header, .shrink {
+  transition: all .5s ease-in-out 0s;
+  /* background: #000; */
+}
+
+header nav.navbar.shrink .navbar-toggle {
+  margin: 8px 15px 8px 0;
+  ` padding: 4px 5px;
+}
+
+/*header .dropdown-toggle::after {
+    display: none;
+}*/
+
+header .nav-link.dropdown-toggle {
+  color: #000;
+}
+
+header .navbar-brand img {
+  /* height: 40px; */
+  transition: all .3s ease-in-out 0s;
+    max-width: 150px;
+}
+
+.header {
+  background: #fff;
+  box-shadow: 0px 0px 4px #0000001a;
+  transition: all .5s ease-in-out 0s;
+}
+
+header .shrink .navbar-brand img {
+/*  height: 40px;*/
+    
+  transition: all .3s ease-in-out 0s;
+}
+header .shrink .black-logo,
+header .white-logo{
+    display: none;
+}
+header .black-logo,
+header .shrink .white-logo{
+    display: block;
+}
+
+/*
+.nav-link.became-professional {
+  border-radius: 4px!important;
+  color: #000!important;
+  background: #f8cc47;
+   padding: .5rem 1rem !important; 
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.top-menue1 {
+  margin-left: 40px;
+}
+*/
+/*
+.nav-link.became-professional:hover {
+  background: #28B7E7!important;
+  color: #fff!important;
+}
+*/
+/*
+
+header input {
+  border: 1px solid #E6E6E6;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  padding: 5px 8px 5px 40px;
+  outline: none;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar i {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+*/
+
+/*.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}*/
+
+header .navbar-light .navbar-nav .nav-link.link-btn {
+  display: block;
+    font-weight: 300;
+    height: 41px;
+    width: 106px;
+    border: 1px solid #0491FF;
+    border-radius: 20px;
+    color: #0491FF;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 41px;
+    text-align: center;
+    padding: 0;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+header .navbar-light .navbar-nav .nav-link.link-btn:hover{
+    background-color: #0491FF;
+    color: #fff;
+}
+header .navbar-light .navbar-nav .nav-item{
+    margin-left: 20px;
+}
+header .navbar-light .navbar-nav .nav-link{
+    font-family: "campton book";
+    color: #282525;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+header .navbar-light .navbar-nav .nav-item.dropdown{
+    
+}
+header .navbar-light .navbar-nav .nav-item.dropdown img{
+    width: 24px;
+}
+header .navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu{
+    left: auto;
+    right: 0;
+}
+header .navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu a{
+    color: #232323;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 30px;    
+}
+header .navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu a img{
+    width: auto;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+}
+/*Bannar Css*/
+.download-now-img{
+  max-width: 100%;
+}
+.bannar {
+  padding: 120px 0;
+  /* min-height: 100vh; */
+/*  background-image:url(../images/bg-main.png);*/
+  background-image:url(../images/banner_image.png);
+  background-position: right;
+  background-size: cover;
+    margin: 70px 0 0;
+}
+
+.bannar h2 {
+  color: #282525;
+  font-family: 'SF UI Display';
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.bannar h2 span{
+    font-weight: bold;
+}
+
+.bannar p {
+  color: #282525;
+  font-family: "SF UI Display";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.dark-color {
+  color: #2a2a2a!important;
+}
+
+/* section.home-consult-section */
+section.home-consult-section{
+    padding: 50px 0 0;
+}
+section.home-consult-section h2{
+    color: #232323;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin-bottom: 5px;
+}
+section.home-consult-section p{
+    opacity: 0.44;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+    line-height: 32px;
+}
+section.home-consult-section .box{
+    border-radius: 6.59px;
+    text-align: right;
+    position: relative;
+    padding: 0 ;
+    margin-bottom: 30px;
+    min-height: 159px;
+}
+section.home-consult-section .box img{
+     position: absolute;
+    right: 0;
+    bottom: -1px;
+} 
+section.home-consult-section .box h4{
+    color: #FFFFFF;
+    font-size: 26.34px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 29.63px;
+    text-align: left;
+    width: 70%;
+    padding: 20px;
+}
+.seagreen{
+    background-color: #39C6C0;
+}
+.red{
+    background-color: #F68C83;
+}
+.black{
+    background-color: #000000;
+}
+.orange{
+    background-color: #F6B568;
+}
+.green{
+    background-color: #45C99D;
+}
+.blue{
+    background-color: #6394F0;
+}
+
+/* section.home-consult-section */
+
+
+
+
+/* download section */
+section.download-now {
+  background-color: #F5F6F9;
+  padding: 60px 0 60px 0;
+}
+.download-now .heading {
+   color: #282525;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+.download-now ul{
+    list-style: none;
+}
+.download-now ul li{
+    background: url(../images/ic_check_blue.png) left no-repeat;
+    color: #282525;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-left: 30px;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.download-now h5{
+    color: #282525;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.download-now p {
+  color: #2C2E30;
+    font-size: 24px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.download-now a {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.download-now .form{
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.download-now .form-control{
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 0;
+    
+}
+.download-now select{
+    width: 70px;
+    border: none;
+    margin-right: 10px;
+}
+.download-now input{
+    width: 70%;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 19px;
+    border-left: 1px solid rgba(0,0,0,0.11);
+}
+.download-now .blue-btn{
+    width: 100%;
+    max-width: 144px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height:49px;
+    border-radius: 6px;
+    background-color: #0491FF;
+}
+
+.dp-block {
+  display: block;
+}
+
+.download-now .carousel-control-next-icon, .download-now .carousel-control-prev-icon {
+  filter: brightness(0.5);
+  top: 48%;
+  position: absolute;
+}
+/* download section */
+
+/* Start Footer CSS */
+
+footer {
+	background: url(../images/footer-bg.png) 0 0 no-repeat;
+	padding: 70px 0px 30px;
+	color: #fff;
+   
+}
+footer.inner-footer{
+     box-shadow: 0 0 4px 0 rgba(0,0,0,0.11);
+}
+
+.footer-item h3 {
+    color: #282525;
+    font-family: Campton;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+	margin-bottom: 20px;
+}
+
+footer p {
+    opacity: 0.6;
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+footer img.footer-logo {
+	margin-bottom: 20px;
+}
+footer ul.social-links{
+    list-style: none;
+    display:block;
+}
+footer ul.social-links li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+footer ul.social-links li a{
+    color: #949494;
+}
+.footer-item ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.footer-item ul li {
+	margin-bottom: 0;
+}
+
+.footer-item ul a {
+    opacity: 0.6;
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+}
+.footer-item ul a:hover{
+    color: #0491FF;
+}
+
+.footer-item p {
+	color: #7B7F86;
+	font-family: "PT Sans";
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.footer-item p a {
+	color: #3688F9;
+}
+
+.footer-item ul a img {
+	margin-right: 20px;
+}
+
+.footer-search {
+	position: relative;
+}
+
+.footer-search input {
+	background-color: #393E52;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	padding: 11px 15px 14px;
+	font-size: 14px;
+	position: relative;
+}
+
+.footer-search img {
+	position: absolute;
+	right: 17px;
+	top: 12px;
+}
+
+.footer-item ul.social {
+	display: inline-block;
+	width: 100%;
+}
+
+.footer-item ul.social li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer-item ul.social li a {
+	color: #99A6B2;
+	font-size: 25px;
+}
+
+.footer-bottom {
+	padding: 20px 0px 20px;
+	color: #fff;
+	border-top:1px solid rgba(0,0,0,0.11);
+}
+
+.footer-bottom p {
+	color: #7B7F86;
+	font-family: "PT Sans";
+	font-size: 14px;
+	letter-spacing: 0;
+	margin-bottom: 0;
+	line-height: 24px;
+}
+
+ul.social {
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+ul.social li {
+	display: inline-block;
+	margin-left: 10px;
+}
+/* End Footer CSS */
+
+/* book doctor */
+section.book-doctor {
+    margin-top: 130px;
+}
+section.book-doctor h2{
+    color: #232323;
+    font-family: "Campton";
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+section.book-doctor p{
+    opacity: 0.44;
+    color: #000000;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+.location {
+    width: 249px;
+    border: 1px solid rgba(0,0,0,0.11);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    position: relative;
+}
+.location img {
+    position: absolute;
+    left: 5px;
+    top: 13px;
+}
+.location select.form-control {
+    border: none;
+    padding-left: 30px;
+    height: 49px;
+    outline: none !important;
+}
+.search{
+    width: 370px;
+    border: 1px solid rgba(0,0,0,0.11);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    position: relative;
+}
+.search img {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+.search input {
+    height: 49px;
+    border: none;
+    padding-left: 45px;
+}
+ul.buttons-link{
+    list-style: none;
+    margin-left: auto;
+    text-align: right;
+}
+ul.buttons-link li{
+    display: inline-block;
+    margin-left: 15px;
+}
+ul.buttons-link li button{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align:center;
+    border-radius: 21.5px;
+    background-color: rgba(0,0,0,0.06);
+    color: rgba(0,0,0,0.4);
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    border: none;
+}
+ul.buttons-link li.active button{
+    color: #fff;
+    background-color: #0491FF;
+}
+
+.nav-pills{
+    margin-top: 30px;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+
+}
+.nav-pills .nav-link{
+    color: #bbb;
+    font-family: Campton;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 60px;
+    padding: 0 15px;
+    border-radius: 0;
+    border-left: 4px solid transparent;
+}
+.nav-pills .nav-link.active{
+    border-left-color: #0491FF;
+    color:  #0491FF;
+     background-color: rgba(4,145,255,0.08);
+}
+.tab-content{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.nav-tabs .location{
+    margin-left: 0;
+}
+.nav-tabs .location .form-control{
+    padding-left: 15px;
+}
+.all-docs{
+    border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 6px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.all-docs img.profile-photo {
+    width: 103px;
+}
+.all-docs h3{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.all-docs h3 span{
+    color: rgba(0,0,0,0.44);
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    display: block;
+}
+section.book-doctor .all-docs p{
+    font-family: "Campton book";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 0;
+    opacity: 1 ;
+}
+.all-docs p.review{
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    opacity: 1;
+}
+.all-docs p a{
+    color: #0491FF;    
+}
+.all-docs .col-md-6{
+    
+}
+.all-docs button.action-btn{
+    color: #FFFFFF;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 23px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 47%;
+    margin-bottom: 15px;
+    float: left;
+    padding: 5px 16px;
+    text-align: left;
+}
+.all-docs button.action-btn:nth-child(odd){
+    margin-right: 15px;
+}
+.all-docs button.action-btn span{
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+}
+
+.pagination{
+    justify-content: center;
+     margin-top: 60px;
+}
+.pagination li.page-item{
+    
+}
+.pagination li.page-item .page-link{
+    width: 40px;
+    padding: .5rem 0;
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-align: center;
+}
+.pagination li.page-item .page-link:hover,
+.pagination li.page-item.active .page-link{
+    background-color: #0491FF;
+    color: #fff;
+}
+/* book doctor */
+/* doctor details */
+
+.doctor-profile-details {
+    padding: 15px 0;
+    margin: 20px 0;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.doctor-profile-details h6{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.doctor-profile-details h6 span{
+    color: #848484;
+  font-family: "Campton book";
+  font-size: 14px;
+  font-weight: 300;
+    display: block;
+}
+
+.doctor-details{
+    margin: 10px 0;
+    
+}
+.doctor-details h3{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.doctor-details p{
+    opacity: 0.7;
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 28px;   
+}
+.doctor-details.all-reviews {
+    border-top: 1px solid rgba(0,0,0,0.08);
+    padding-top: 25px;
+    margin-top: 25px;
+}
+section.book-doctor .all-docs .review{
+    margin-bottom: 30px;
+}
+section.book-doctor .all-docs .doctor-details.all-reviews h3{
+ margin-bottom: 20px;   
+}
+ .doctor-details.all-reviews .review h4{
+    font-family: "Campton";
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    
+}
+section.book-doctor .all-docs .review p.review{
+    margin-bottom: 10px;
+}
+ .doctor-details.all-reviews .review img.review-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.doctor-details.all-reviews .review p{
+    color: #848484;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 28px;   
+}
+
+#accordion{
+    
+}
+#accordion .card{
+    margin-bottom: 30px;
+}
+#accordion .card .card-header{
+    padding: 0;
+    border: none;
+}
+#accordion .card .card-header button{
+    border: none;
+    background: transparent;
+    width: 100%;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none !important;   
+}
+#accordion .card .card-header button span{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    display: block;
+}
+
+#accordion .card .card-body p{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+#accordion .card .card-body label{
+    color: #848484;
+    font-family: "Campton book";
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+}
+#accordion .card .card-body input{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    width: 100%;
+    line-height: 35px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    outline: none !important;
+}
+#accordion .card .card-body .form.coupon{
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 10px;
+}
+#accordion .card .card-body .form.coupon input{
+    opacity: 0.44;
+    color: #000000;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#accordion .card .card-body .form.coupon input.btn {
+    opacity: 1;
+    width: 80px;
+    line-height: 33px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#accordion .card .card-body h4{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 20px 0 10px;
+}
+#accordion .card .card-body h5{
+    display: flex;
+    justify-content: space-between;
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;  
+    margin-bottom: 10px;
+}
+#accordion .card .card-body h5 span{
+      text-align: right;
+}
+#accordion .card .card-body h5.total{
+    font-weight: 600;
+    margin-top: 15px;
+}
+#accordion .card .card-body p{
+    color: #000000;
+    font-family: "Campton book";
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+}
+#accordion .card .card-body .confirm-booking{
+    border-radius: 24px;
+    background-color: #0491FF;
+    color: #FFFFFF;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 48px;
+    padding: 0;
+    height: auto;
+}
+/* doctor details */
+/* doctor classes */
+
+section.book-doctor .doctor-classes{
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+section.book-doctor .doctor-classes h4{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0;
+}
+section.book-doctor .doctor-classes .col-md-3 h4{
+    text-align: right;
+}
+section.book-doctor .doctor-classes h4 span{
+    color: #0491FF;
+    text-align: right;
+}
+section.book-doctor .doctor-classes img.doc-img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+section.book-doctor .doctor-classes h6{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+     margin: 0;
+}
+section.book-doctor .doctor-classes p{
+    color: #404040;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+     margin: 0;
+}
+section.book-doctor .doctor-classes .border-btn{
+    border: 1px solid #0491FF;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: #0491FF;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    width: 100%;
+    max-width: 249px;
+    text-align: center;
+    line-height: 49px;
+    transition: 0.3s;
+}
+section.book-doctor .doctor-classes .border-btn:hover{
+    background-color: #0491FF;
+    color: #fff;
+}
+section.book-doctor .card-body h2{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px; 
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+/* doctor classes */
+
+
+/* appointments */
+section.book-doctor.appointments h2{
+    margin-bottom: 30px;
+}
+section.book-doctor.appointments nav {
+    background: rgba(0,0,0,0.02);
+}
+section.book-doctor.appointments nav .nav-tabs{
+    border-bottom: none;
+}
+section.book-doctor.appointments nav .nav-tabs .nav-link{
+    border: none;
+    font-family: "Campton book";
+    color: rgba(0,0,0,0.44);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 50px;
+    position: relative;
+}
+section.book-doctor.appointments nav .nav-tabs .nav-link.active{
+/*
+    font-weight: 500;   
+    font-family: "Campton";
+*/
+    background-color: transparent;
+    color: #232323;
+}
+section.book-doctor.appointments nav .nav-tabs .nav-link.active:before{
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 3px;
+    background-color: #0491FF;
+    height: 3px;
+    width: 29px;
+}
+section.book-doctor.appointments h3{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px; 
+    margin-bottom: 20px;
+}
+section.book-doctor.appointments .doctor-classes .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.book-doctor.appointments .doctor-classes img.doc-img{
+    width: 40px;
+    height: 40px;
+}
+section.book-doctor.appointments .doctor-classes h6{
+    line-height: 40px;
+}
+section.book-doctor.appointments .doctor-classes .border-btn{
+    line-height: 40px;
+    text-align: center;    
+}
+section.book-doctor.appointments .doctor-classes .cancel-btn{
+    border-color: rgba(0,0,0,0.4);
+    color: rgba(0,0,0,0.4);
+}
+section.book-doctor.appointments .doctor-classes .cancel-btn:hover{
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
+/* appointments */
+
+/* account */
+.book-doctor.account{
+    
+}
+.book-doctor.account .profile-image{
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    height: 257px;
+    width: 100%;
+    max-width: 369px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.book-doctor.account a.border-btn{
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 49px;
+    transition: 0.3s; 
+    display: block;
+}
+.border-btn{
+    border: 1px solid #0491FF;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: #0491FF;
+}
+.border-btn:hover{
+    background-color: #0491ff;
+    color: #fff;
+}
+.book-doctor.account .profile-dtl{
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+.book-doctor.account .profile-dtl .profile-name{
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+.book-doctor.account .profile-dtl .profile-name h3{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+   margin-bottom: 0;
+}
+.book-doctor.account .profile-dtl .profile-name p{
+    opacity: 0.44;
+    color: #000000;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.book-doctor.account .profile-dtl label{
+    color: #000000;
+    font-family: "Campton book";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+.book-doctor.account .profile-dtl h6{
+    color: #242424; 
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.book-doctor.account .btn{
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 49px;
+    transition: 0.3s; 
+    display: block; 
+    border-radius: 24px;
+}
+.book-doctor.account .profile-dtl input{
+    
+}
+.book-doctor.account .profile-dtl textarea{
+    height: 96px;
+    resize: none;
+}
+/* account */
+/* notifications */
+ul.notifications {
+    list-style: none;
+}
+ul.notifications li {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 60px;
+    min-height: 48px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+
+}
+ul.notifications li h6{
+     color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    min-height: 48px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+ul.notifications li h6 span{
+ color: rgba(0,0,0,0.44);   
+}
+ul.notifications li img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* notifications */
+
+/* wallet */
+.wallet-balance{
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.02);
+    padding: 30px;
+}
+
+.wallet-balance h3 span{
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0;
+    display: block;
+    line-height: 48px;
+}
+.wallet-page h3,
+.wallet-balance h3{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px; 
+}
+.wallet-page h5{
+     color: #282525;
+    font-family: "Campton";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px; 
+    text-transform: uppercase;
+    margin:20px 0 15px;    
+}
+.transaction-history ul.notifications li{
+    padding-left: 85px;
+}
+.transaction-history ul.notifications li span.date-time{
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.transaction-history ul.notifications li span.date-time span{
+    color: rgba(0,0,0,0.44);
+    display: block;
+    font-size: 14px;
+}
+.add-money{
+    border: 1px solid rgba(0,0,0,0.11);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+.transaction-history{
+   border: 1px solid rgba(0,0,0,0.11);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding: 20px; 
+}
+.add-money-form{
+    
+}
+.add-money-form input{
+    margin-bottom: 15px;
+}
+.add-money-form .add{
+    border-radius: 21.5px;
+    background-color: rgba(0,0,0,0.06);
+    color: rgba(0,0,0,0.4);
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding: 0 20px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.add-money-form input.btn{
+    border-radius: 24px;
+    background-color: #0491FF;
+    color: #FFFFFF;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 48px;
+    text-align: center;
+    width: 100%;
+}
+/* wallet */
+/* payment option */
+.payment-option{
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    margin-top: 150px;
+}
+
+.custom-radio{
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 32px;
+    padding-top: 15px;
+    border-top:  1px solid rgba(0,0,0,0.08);
+}
+.radio-btns  .row .custom-radio{
+    border-top: none;
+}
+.radio-btns .blue-btn{
+    width: 100%;
+    border-radius: 18.5px;
+    color: #FFFFFF;
+    font-family: "Campton";
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.19px;
+    line-height: 40px;
+    text-align: center;
+}
+.payment-option .radio-btns h3{
+    margin-bottom: 20px;
+}
+.custom-radio [type="radio"]:checked,
+.custom-radio [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.custom-radio [type="radio"]:checked + label,
+.custom-radio [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.custom-radio [type="radio"]:checked + label:before,
+.custom-radio [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #0491FF;
+    border-radius: 100%;
+    background: #fff;
+}
+.custom-radio [type="radio"]:checked + label:after,
+.custom-radio [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #0491FF;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.custom-radio [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.custom-radio [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.payment-option .go-back {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.payment-option .go-back h5{
+    color: #282525;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.payment-option .go-back h5 i{
+    margin-right: 10px;
+}
+.payment-option h3{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+.payment-option h3 span{
+    font-family: "Campton book";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    display: block;
+}
+.amount-added {
+    padding: 20px;
+    border-bottom: 4px solid rgba(0,0,0,0.02);
+}
+.radio-btns{
+    padding: 20px;
+}
+/* payment option */
+
+
+/* chat-box */
+
+.inbox_people {
+/*	background: rgba(85,145,255,0.04);*/
+	float: left;
+	overflow: hidden;
+	width: 40%;
+	    border-right: 1px solid rgba(0,0,0,0.08);
+}
+
+.inbox_msg {
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+	clear: both;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.top_spac {
+	margin: 20px 0 0;
+}
+
+
+/*.recent_heading {float: left; width:40%;}*/
+
+.srch_bar {
+	display: inline-block;
+	text-align: right;
+	width: 100%;
+	padding:
+}
+
+.headind_srch {
+	padding: 18px 29px 18px 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.recent_heading h4 {
+    color: #323E4A;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+.srch_bar input {
+/*	border: 1px solid #cdcdcd;*/
+	border-width: 0 0 1px 0;
+	width: 100%;
+	padding: 2px 0 4px 6px;
+	background: none;
+    border: none;
+    outline: none !important;
+    opacity: 0.44;
+    color: #000000;
+    font-family: "Campton book";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.stylish-input-group {
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    display: flex;
+    line-height: 49px;
+    padding: 0 15px;
+}
+.srch_bar .input-group-addon button {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: medium none;
+	padding: 0;
+	color: #707070;
+	font-size: 18px;
+    outline: none !important;
+}
+
+.srch_bar .input-group-addon {
+	margin: 2px 10px 0 0 ;
+}
+
+.chat_ib h5 {
+	color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+	margin: 0px;
+}
+
+.chat_ib h5 span {
+	float: right;    
+    color: rgba(0,0,0,0.38);
+    font-family: "Campton book";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.chat_ib p {
+	color: #51606D;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 20px !important;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.chat_img {
+	float: left;
+	width:48px;
+}
+
+.chat_img img {
+	width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.chat_ib {
+	float: left;
+	padding: 0 0 0 15px;
+	width: calc(100% - 48px);
+}
+
+.chat_people {
+	overflow: hidden;
+	clear: both;
+}
+
+.chat_list {
+	border-bottom: 1px solid #EAEDF3;
+	border-left: 5px solid transparent;
+	margin: 0;
+	padding:15px 16px 15px;
+}
+
+.inbox_chat {
+	height: 600px;
+	overflow-y: auto;
+}
+
+.active_chat {
+	border-left-color: #5591FF;
+    background-color: rgba(4,145,255,0.11);
+}
+
+.incoming_msg_img {
+	display: inline-block;
+	width: 100%;
+    margin-bottom: 10px;
+}
+
+.received_msg {
+	display: inline-block;
+	padding: 0 0 0 10px;
+	vertical-align: top;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.received_withd_msg p {
+	color: #fff;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 10px 5px 12px;
+	text-align: left;
+    width: auto;
+    display: inline-block;
+    border-radius: 24px 24px 24px 0;
+    background-color: #D3DEF4;
+}
+
+.time_date {
+	color: #747474;
+	display: block;
+	font-size: 12px;
+	margin: 8px 0 0;
+	float: right;
+}
+.mesgs .date{
+    opacity: 0.5;
+    color: #26262A;
+    font-family: "Campton book";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+.received_withd_msg {
+	width: 80%;
+}
+
+.mesgs {
+	float: left;
+	padding: 30px 15px 0 25px;
+	width: 60%;
+}
+
+.messaging .sent_msg p {
+/*	background: #EAEFF4 none repeat scroll 0 0;*/
+	border-radius: 3px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: 20px;
+	padding: 10px;
+	text-align: left;
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.outgoing_msg {
+	overflow: hidden;
+	margin: 26px 0 26px;
+}
+
+.sent_msg {
+	float: right;
+	width: 80%;
+    border-radius:24px 24px 0 24px ;
+    background-color: #0491FF;
+}
+
+.input_msg_write input {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 52px;
+    width: 100%;
+    outline: none !important;
+    padding-left: 30px;
+}
+
+.type_msg {
+	border-top: 1px solid #DEDEDE;
+	position: relative;
+    margin: 0 0 0 -25px;
+    padding-left: 25px;
+}
+
+.msg_send_btn {
+    background: none;
+    border: medium none;
+    border-radius: 50%;
+    color: #222;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    width: auto;
+    outline: none !important;
+
+}
+button.msg_send_btn.picture_icon {
+    right: 0;
+    left: auto;
+    top: 8px;
+}
+button.msg_send_btn.attachment_icon {
+    right: 30px;
+}
+
+.messaging {
+	padding: 0 0 50px 0;
+}
+
+.msg_history {
+	height: 500px;
+	overflow-y: auto;
+}
+
+.incoming_msg_img img {
+	width: 22px;
+	margin-right: 10px;
+}
+
+.incoming_msg_img .time_date {
+	float: right;
+}
+
+.incoming_msg {
+	width: 80%;
+}
+.headind_srch.chat_person_name {
+    padding:20px 15px 21px;
+}
+.headind_srch.chat_person_name .recent_heading {
+}
+
+.headind_srch.chat_person_name .recent_heading h4{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.headind_srch.chat_person_name .recent_heading h4 img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* chat-box */
+
+
+/* footer2 */
+footer.footer-2 {
+    padding: 30px 0;
+    margin-top: 50px;
+}
+footer.footer-2 .footer-item{
+}
+footer.footer-2 .footer-item ul{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer.footer-2 .footer-item ul li a{
+    color: rgba(0,0,0,0.44);
+    font-family: "Campton book";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    opacity: 1;
+}
+footer.footer-2 .footer-item ul li{
+    display: inline-block;
+    margin: 0 8px;
+}
+footer.footer-2 .footer-bottom {
+    padding: 0;
+    color: #fff;
+    border-top: none;
+}
+footer.footer-2 .footer-bottom p{
+    color: rgba(0,0,0,0.44);
+    font-family: "Campton book";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    opacity: 1;
+}
+/* footer2 */
+
+
+
+
+/* popup design */
+.modal-content{
+    padding: 20px;
+}
+.modal-content .modal-header{
+    padding: 0 0 15px;
+    display: block;
+    margin-bottom: 15px;
+}
+.modal-body button.btn-primary {
+    border: 1px solid rgba(0,0,0,0.11);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0 15px;
+    line-height: 50px;
+}
+.modal-body p{
+    color:rgba(0,0,0,0.4);
+    font-family: "Campton";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.modal-body p a{
+    color: #0491FF;
+    font-weight: 400;
+    font-family: "campton book";
+}
+.modal-body label{
+    color: #282525;
+    font-family: "Campton";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.modal-body button.btn-primary img {
+    padding-right: 15px;
+    margin-right: 10px;
+    border-right: 1px solid #ddd;
+    color: #222;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.modal-body  .form{
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.modal-body .form .form-control{
+    outline: none !important;
+    box-shadow: none !important;
+    
+}
+.modal-body .form select{
+    width: 130px;
+    border: 1px solid rgba(0,0,0,0.11);
+    margin-right: 10px;
+    border-radius: 6px;
+    height: 48px;
+}
+.modal-body .form input{
+    width: 100%;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 19px;
+    border:1px solid rgba(0,0,0,0.11);
+    border-radius: 6px;
+    height: 48px;
+}
+.modal-body .btn{
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height:49px;
+    background-color: #0491FF;
+     border-radius: 24px;
+}
+.modal-header .close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 30px;
+}
+.modal-content .modal-header p {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+
+.modal-footer{
+    background-color:rgb(4, 145, 255, 0.08);
+    text-align: center;
+    margin: 0 -20px -20px;
+}
+.modal-footer p{
+    color:#282525;
+    font-family: "Campton";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 35px;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+.modal-footer p a{
+    color: #0491FF;
+    font-weight: 500;
+}
+
+
+
+/* popup design */
+
+
+
+
+@media (max-width: 1024px) {
+.offset-md-1.col-md-5.mt-5 {
+  margin-top: 0rem!important;
+}
+}
+
+@media (max-width: 768px) {
+  div#navbarSupportedContent ul.navbar-nav.top-menue1 {
+    margin-left: 0px;
+}
+  div#navbarSupportedContent {
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0px;
+    background-color: rgb(17, 17, 17);
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+    padding-top: 30px;
+    height: 100%;}
+  .bannar h2 {
+    font-size: 36px;
+  }
+  .bannar {
+    background-position: 62% 0;
+    padding: 150px 0 100px;
+  }
+  .bannar p{
+    font-size: 20px;
+  }
+  .how-it-works h3, .professionals-profile h3, .professional-services h3, .partners-team h3 {
+    font-size: 36px;
+  }
+  .professional-services p, .airwrk-capital p, .professionals-profile h5, .partners-team p {
+    font-size: 22px;
+  }
+  .how-it-works h6 {
+    font-size: 22px;
+  }
+  .how-it-works h5 {
+    font-size: 26px;
+  }
+  .airwrk-capital h3 {
+    font-size: 40px;
+  }
+  .professionals-profile .owl-prev {
+    left: 0px!important;
+  }
+  .professionals-profile .owl-next {
+    right: 0px!important;
+  }
+  span.menu-bar svg {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+}
+  header .navbar {
+    background: #000!important;
+    max-width: 100%;
+  }
+  .nav-link.became-professional {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .nav-item {
+    margin-left: 1rem!important;
+  }
+  /* .how-it-works p {
+    color: #fff;
+    opacity: .7;
+    font-size: 16px;
+    line-height: 26px;
+  } */
+  .navbar-collapse.collapse.show {
+    padding: 0 0 20px 0;
+  }
+}
+@media (max-width: 767px) {
+  ul.footer-menu li, ul.footer-menu li a{
+    margin:0px 10px 0px 0px;
+  }
+  .professional-services .outer-block {
+    margin-bottom: 20px;
+    top: 0px !important;
+    height: auto;
+}
+.download-now .heading {
+  margin-top: 40px !important;
+
+}
+.how-it-works-block {
+  height: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+}
+@media (max-width: 600px) {
+  .how-it-works h3, .professionals-profile h3, .professional-services h3, .partners-team h3 {
+    font-size: 26px;
+}
+.professional-services p, .airwrk-capital p, .professionals-profile h5, .partners-team p {
+  font-size: 16px;
+}
+}
